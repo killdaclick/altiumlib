@@ -1,0 +1,280 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\Design\altiumlib\Parts_.mdb;Persist Security Info=False
+AddMode=3
+RemoveMode=2
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Access
+LibraryDatabasePath=E:\Design\altiumlib\Parts_.mdb
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=1
+LastFocusedTable=Other
+[Table1]
+SchemaName=
+TableName=Capacitors
+Enabled=True
+UserWhere=0
+UserWhereText=[OtherParams] = '{OtherParams}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}' AND [Identyfikator] = '{Identyfikator}'
+[Table2]
+SchemaName=
+TableName=Connectors
+Enabled=True
+UserWhere=0
+UserWhereText=[Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table3]
+SchemaName=
+TableName=Diodes
+Enabled=True
+UserWhere=0
+UserWhereText=[Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table4]
+SchemaName=
+TableName=Electrical
+Enabled=True
+UserWhere=0
+UserWhereText=[Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table5]
+SchemaName=
+TableName=Electromechanical
+Enabled=True
+UserWhere=0
+UserWhereText=[OtherParams] = '{OtherParams}' AND [Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table6]
+SchemaName=
+TableName=ICs
+Enabled=True
+UserWhere=0
+UserWhereText=[Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table7]
+SchemaName=
+TableName=Inductors
+Enabled=True
+UserWhere=0
+UserWhereText=[OtherParams] = '{OtherParams}' AND [Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table8]
+SchemaName=
+TableName=Mechanical
+Enabled=True
+UserWhere=0
+UserWhereText=[Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table9]
+SchemaName=
+TableName=Modules
+Enabled=True
+UserWhere=0
+UserWhereText=[Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table10]
+SchemaName=
+TableName=Opto
+Enabled=True
+UserWhere=0
+UserWhereText=[Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table11]
+SchemaName=
+TableName=Other
+Enabled=True
+UserWhere=0
+UserWhereText=[Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=172|Footprint Ref0=168|Footprint Ref 20=93|Footprint Ref 30=93|Identyfikator0=81|Value0=132|Dimensions0=132|Descript0=287|Supplier50=67|Reference50=119|Manufacturer50=92|Typ50=105|Price50=53|Currency50=71|DateOfPrice50=87
+[Table12]
+SchemaName=
+TableName=PCBs
+Enabled=True
+UserWhere=0
+UserWhereText=[Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table13]
+SchemaName=
+TableName=Quarz
+Enabled=True
+UserWhere=0
+UserWhereText=[OtherParams] = '{OtherParams}' AND [Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table14]
+SchemaName=
+TableName=Relays
+Enabled=True
+UserWhere=0
+UserWhereText=[Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table15]
+SchemaName=
+TableName=ResVars
+Enabled=True
+UserWhere=0
+UserWhereText=[OtherParams] = '{OtherParams}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table16]
+SchemaName=
+TableName=Resistors
+Enabled=True
+UserWhere=0
+UserWhereText=[OtherParams] = '{OtherParams}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table17]
+SchemaName=
+TableName=Sensors
+Enabled=True
+UserWhere=0
+UserWhereText=[Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table18]
+SchemaName=
+TableName=Transistors
+Enabled=True
+UserWhere=0
+UserWhereText=[Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[Table19]
+SchemaName=
+TableName=zzCable
+Enabled=True
+UserWhere=0
+UserWhereText=[Dimensions] = '{Dimensions}' AND [Value] = '{Value}' AND [Supplier5] = '{Supplier5}'
+[FieldMap1]
+Options=FieldName=Capacitors.Identyfikator|TableNameOnly=Capacitors|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Capacitors.Library Ref|TableNameOnly=Capacitors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Capacitors.Footprint Ref2|TableNameOnly=Capacitors|FieldNameOnly=Footprint Ref2|FieldType=1|ParameterName=[Footprint Ref2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Capacitors.Footprint Ref3|TableNameOnly=Capacitors|FieldNameOnly=Footprint Ref3|FieldType=1|ParameterName=[Footprint Ref3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=Capacitors.Footprint Ref|TableNameOnly=Capacitors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Connectors.Footprint Ref|TableNameOnly=Connectors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Connectors.Library Ref|TableNameOnly=Connectors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Connectors.Footprint Ref2|TableNameOnly=Connectors|FieldNameOnly=Footprint Ref2|FieldType=1|ParameterName=[Footprint Ref2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Connectors.Identyfikator|TableNameOnly=Connectors|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Diodes.Footprint Ref|TableNameOnly=Diodes|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=Diodes.Library Ref|TableNameOnly=Diodes|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=Diodes.Identyfikator|TableNameOnly=Diodes|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=Electrical.Library Ref|TableNameOnly=Electrical|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=Electrical.Footprint Ref|TableNameOnly=Electrical|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=Electrical.Identyfikator|TableNameOnly=Electrical|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=Electromechanical.Library Ref|TableNameOnly=Electromechanical|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=Electromechanical.Footprint Ref|TableNameOnly=Electromechanical|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=Electromechanical.Identyfikator|TableNameOnly=Electromechanical|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=ICs.Identyfikator|TableNameOnly=ICs|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=ICs.Library Ref|TableNameOnly=ICs|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=ICs.Footprint Ref|TableNameOnly=ICs|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=ICs.Footprint Ref 2|TableNameOnly=ICs|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=Inductors.Footprint Ref|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=Inductors.Library Ref|TableNameOnly=Inductors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=Inductors.Footprint Ref2|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref2|FieldType=1|ParameterName=[Footprint Ref2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=Inductors.Footprint Ref3|TableNameOnly=Inductors|FieldNameOnly=Footprint Ref3|FieldType=1|ParameterName=[Footprint Ref3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=Inductors.Identyfikator|TableNameOnly=Inductors|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=Mechanical.Footprint Ref|TableNameOnly=Mechanical|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap29]
+Options=FieldName=Mechanical.Library Ref|TableNameOnly=Mechanical|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap30]
+Options=FieldName=Mechanical.Identyfikator|TableNameOnly=Mechanical|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap31]
+Options=FieldName=Modules.Library Ref|TableNameOnly=Modules|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap32]
+Options=FieldName=Modules.Footprint Ref1|TableNameOnly=Modules|FieldNameOnly=Footprint Ref1|FieldType=1|ParameterName=[Footprint Ref1]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap33]
+Options=FieldName=Modules.Footprint Ref 2|TableNameOnly=Modules|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap34]
+Options=FieldName=Modules.Identyfikator|TableNameOnly=Modules|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap35]
+Options=FieldName=Opto.Library Ref|TableNameOnly=Opto|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap36]
+Options=FieldName=Opto.Footprint Ref|TableNameOnly=Opto|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap37]
+Options=FieldName=Opto.Identyfikator|TableNameOnly=Opto|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap38]
+Options=FieldName=Other.Library Ref|TableNameOnly=Other|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap39]
+Options=FieldName=Other.Footprint Ref|TableNameOnly=Other|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap40]
+Options=FieldName=Other.Footprint Ref 2|TableNameOnly=Other|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap41]
+Options=FieldName=Other.Footprint Ref 3|TableNameOnly=Other|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap42]
+Options=FieldName=Other.Identyfikator|TableNameOnly=Other|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap43]
+Options=FieldName=PCBs.Library Ref|TableNameOnly=PCBs|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap44]
+Options=FieldName=PCBs.Identyfikator|TableNameOnly=PCBs|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap45]
+Options=FieldName=Quarz.Footprint Ref|TableNameOnly=Quarz|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap46]
+Options=FieldName=Quarz.Library Ref|TableNameOnly=Quarz|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap47]
+Options=FieldName=Quarz.Footprint Ref 2|TableNameOnly=Quarz|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap48]
+Options=FieldName=Quarz.Identyfikator|TableNameOnly=Quarz|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap49]
+Options=FieldName=Relays.Library Ref|TableNameOnly=Relays|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap50]
+Options=FieldName=Relays.Footprint Ref|TableNameOnly=Relays|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap51]
+Options=FieldName=Relays.Identyfikator|TableNameOnly=Relays|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap52]
+Options=FieldName=ResVars.Library Ref|TableNameOnly=ResVars|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap53]
+Options=FieldName=ResVars.Footprint Ref|TableNameOnly=ResVars|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap54]
+Options=FieldName=ResVars.Footprint Ref2|TableNameOnly=ResVars|FieldNameOnly=Footprint Ref2|FieldType=1|ParameterName=[Footprint Ref2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap55]
+Options=FieldName=ResVars.Identyfikator|TableNameOnly=ResVars|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap56]
+Options=FieldName=Resistors.Library Ref|TableNameOnly=Resistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap57]
+Options=FieldName=Resistors.Footprint Ref2|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref2|FieldType=1|ParameterName=[Footprint Ref2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap58]
+Options=FieldName=Resistors.Footprint Ref3|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref3|FieldType=1|ParameterName=[Footprint Ref3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap59]
+Options=FieldName=Resistors.Identyfikator|TableNameOnly=Resistors|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap60]
+Options=FieldName=Resistors.Footprint Ref|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap61]
+Options=FieldName=Sensors.Library Ref|TableNameOnly=Sensors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap62]
+Options=FieldName=Sensors.Footprint Ref|TableNameOnly=Sensors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap63]
+Options=FieldName=Sensors.Footprint Ref 2|TableNameOnly=Sensors|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap64]
+Options=FieldName=Sensors.Identyfikator|TableNameOnly=Sensors|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap65]
+Options=FieldName=Transistors.Footprint Ref|TableNameOnly=Transistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap66]
+Options=FieldName=Transistors.Library Ref|TableNameOnly=Transistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap67]
+Options=FieldName=Transistors.Footprint Ref2|TableNameOnly=Transistors|FieldNameOnly=Footprint Ref2|FieldType=1|ParameterName=[Footprint Ref2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap68]
+Options=FieldName=Transistors.Identyfikator|TableNameOnly=Transistors|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap69]
+Options=FieldName=zzCable.Library Ref|TableNameOnly=zzCable|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap70]
+Options=FieldName=zzCable.Footprint Ref|TableNameOnly=zzCable|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap71]
+Options=FieldName=zzCable.Identyfikator|TableNameOnly=zzCable|FieldNameOnly=Identyfikator|FieldType=0|ParameterName=Identyfikator|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
