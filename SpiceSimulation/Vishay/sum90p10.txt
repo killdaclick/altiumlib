@@ -1,0 +1,33 @@
+*July 24, 2006
+*Doc. ID: 79238, S-61262, Rev. A
+*File Name: SUM90P10-19L_PS.txt and SUM90P10-19L_PS.lib
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product data sheet.  Designers should refer to the
+*appropriate data sheet of the same number for guaranteed specification
+*limits.
+.SUBCKT SUM90P10-19L D G S
+M1  3  GX S S PMOS W=20773306u L=0.25u          
+M2  S  GX S D NMOS W=20773306u L=0.40u 
+RG  G  GX     3.5
+R1  D  3      RTEMP 12E-3
+CGS GX S      6700E-12
+DBD D  S      DBD
+***************************************************************  
+.MODEL  PMOS       PMOS  ( LEVEL  = 3           TOX    = 5E-8
++ RS     = 2.5E-3          RD     = 0           NSUB   = 1.2E17
++ KP     = 1.3E-6          UO     = 400             
++ VMAX   = 0               XJ     = 5E-7        KAPPA  = 7E-3
++ ETA    = 1E-4            TPG    = -1  
++ IS     = 0               LD     = 0                        
++ CGSO   = 0               CGDO   = 0           CGBO   = 0 
++ NFS    = 0.8E12          DELTA  = 0.1)
+*************************************************************** 
+.MODEL  NMOS       NMOS  ( LEVEL  = 3           TOX    = 5E-8
++NSUB    = 3E16            NFS    = 1E12        TPG    = -1)   
+*************************************************************** 
+.MODEL DBD D (CJO=1300E-12 VJ=0.38 M=0.14
++RS=0.1 FC=0.5 IS=1E-12 TT=6E-8 N=1 BV=102)
+*************************************************************** 
+.MODEL RTEMP RES (TC1=8E-3 TC2=5.5E-6)
+*************************************************************** 
+.ENDS

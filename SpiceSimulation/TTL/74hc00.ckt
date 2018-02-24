@@ -1,0 +1,13 @@
+* 2-input NAND gate
+* tpd 25n/9n/7n
+* tr 19n/7n/6n
+.SUBCKT 74HC00  A B Y  VCC VGND  vcc1={vcc} speed1={speed} tripdt1={tripdt}
+.param td1=1e-9*(9-3-3)*4.0/({vcc1}-0.5)*{speed1}
+*
+XIN1  A Ai  VCC VGND  74HC_IN_1  vcc2={vcc1}  speed2={speed1}  tripdt2={tripdt1}
+XIN2  B Bi  VCC VGND  74HC_IN_1  vcc2={vcc1}  speed2={speed1}  tripdt2={tripdt1}
+*  tripdt=1n
+A1  Ai Bi 0 0 0  Yi 0 0  AND  tripdt={tripdt1}  td={td1}
+*
+XOUT  Yi Y  VCC VGND  74HC_OUT_1X  vcc2={vcc1} speed2={speed1}  tripdt2={tripdt1}
+.ends
